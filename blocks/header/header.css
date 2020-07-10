@@ -1,0 +1,14 @@
+@import url("header__lang/header__lang.css");
+@import url("__logo/header__logo.css");
+
+.header {
+    max-width: 1184px;
+    height: 52px;
+    justify-content: space-between;
+    margin: 0 48px;
+    padding-top: 28px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+}

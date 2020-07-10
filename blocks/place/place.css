@@ -1,0 +1,20 @@
+@import url("__image/place__image.css");
+@import url("__title/place__title.css");
+@import url("__paragraph/place__paragraph.css");
+@import url("__website/place__website.css");
+
+.place {
+    max-height: 660px;
+    display: inline-grid;
+    margin-bottom: 80px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-column-gap: 40px;
+    grid-template-areas: "head url"
+                         "img text1"
+                         "img text2";
+}
+
+.place:last-child {
+    margin: 0;
+}
