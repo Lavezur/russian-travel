@@ -1,14 +1,39 @@
-@import url("header__lang/header__lang.css");
+@import url("__lang-link/header__lang-link.css");
 @import url("__logo/header__logo.css");
 
 .header {
     max-width: 1184px;
-    height: 52px;
+    max-height: 52px;
     justify-content: space-between;
     margin: 0 48px;
     padding-top: 28px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr repeat(2, min-content);
     grid-template-rows: auto;
     align-items: center;
+}
+
+
+@media (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        height: 52px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        height: 52px;
+        margin: 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        height: 42px;
+        margin: 0 16px;
+        padding-top: 16px;
+    }
 }

@@ -1,8 +1,0 @@
-@import url("__list-item/intro__list-item.css");
-
-.intro__list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 90px;
-}

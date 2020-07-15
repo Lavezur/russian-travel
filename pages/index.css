@@ -10,9 +10,32 @@
 
 
 .pages {
-    background: #2A2C2F;
-    width: 1280px;
+    background: #2A2C2F top center / cover;
+    max-width: 1280px;
     margin: 0 auto;
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }
 
+@media screen and (max-width: 1024px) {
+    .pages {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pages {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pages {
+        width: 320px;
+    }
+}

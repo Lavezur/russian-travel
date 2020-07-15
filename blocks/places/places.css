@@ -4,3 +4,27 @@
     max-width: 984px;
     margin: 92px auto 0;
 }
+
+@media (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+        max-height: 3296px;
+        margin: 48px 48px 0 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        max-height: 2802px;
+        margin: 88px 24px 0 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        max-height: 4775px;
+        margin: 64px 0 0;
+    }
+}

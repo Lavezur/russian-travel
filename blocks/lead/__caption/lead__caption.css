@@ -4,9 +4,21 @@
     color: white;
     text-transform: uppercase;
 
-    width: 159px;
-    height: 14px;
+    max-width: 159px;
+    max-height: 14px;
     letter-spacing: 0.15em;
 
     margin: 8px 0 0;
+}
+
+@media (max-width: 768px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
 }
