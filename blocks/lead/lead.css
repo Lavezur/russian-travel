@@ -9,6 +9,12 @@
     max-height: 1005px;
 }
 
+@media (min-width: 1281px) {
+    .lead {
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 1024px) {
     .lead {
         padding: 48px 48px 0 48px;

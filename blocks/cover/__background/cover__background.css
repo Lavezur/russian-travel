@@ -1,9 +1,10 @@
 .cover__background {
-    width: 100%;
     min-height: 100%;
-    position: absolute;
+    width: 100%;
     z-index: 0;
-    background: url("../../../images/cover-trains.jpg") top center / cover no-repeat;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1;
 }
 
 

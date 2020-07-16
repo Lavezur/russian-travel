@@ -2,15 +2,17 @@
     font-size: 16px;
     line-height: 26px;
     color: white;
-    margin-bottom: 32px;
+    margin: 40px 0 32px;
+    font-weight: normal;
 }
+
 
 @media (max-width: 320px) {
     .intro__text {
-        max-width: 288px;
-        max-height: 520px;
         font-weight: normal;
         font-size: 16px;
         line-height: 26px;
     }
 }
+
+

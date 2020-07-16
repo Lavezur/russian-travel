@@ -4,7 +4,7 @@
 .footer {
     max-width: 1184px;
     max-height: 18px;
-    margin: 92px 48px 0;
+    margin: 0 48px 0;
     padding-bottom: 24px;
     display: grid;
     grid-template-columns: repeat(5, min-content) 1fr;
@@ -12,6 +12,12 @@
     grid-row-gap: 18px;
     align-items: center;
     justify-items: end;
+}
+
+@media (min-width: 1281px) {
+    .footer {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -25,7 +31,7 @@
     .footer {
         max-width: 720px;
         max-height: 18px;
-        margin: 88px 24px 0;
+        margin: 0 24px 0;
         padding-bottom: 24px;
     }
 }
@@ -38,7 +44,7 @@
         grid-template-rows: repeat(5, 24px) 1fr;
         row-gap: 32px;
         justify-items: start;
-        margin: 64px 118px 0 16px;
+        margin: 0 118px 0 16px;
         padding-bottom: 24px;
     }
 }
