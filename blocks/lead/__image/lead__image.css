@@ -1,7 +1,7 @@
 .lead__image {
     max-width: 100%;
-    max-height: 615px;
-    margin: 64px auto 0;
+    min-height: min-content;
+    margin: 64px 0 0;
 }
 
 @media (max-width: 1024px) {

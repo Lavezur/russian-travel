@@ -5,8 +5,8 @@
 
 .lead {
     padding: 56px 148px 0;
-    max-width: 984px;
-    max-height: 1005px;
+    min-width: min-content;
+    margin: 0;
 }
 
 @media (min-width: 1281px) {
@@ -18,23 +18,17 @@
 @media (max-width: 1024px) {
     .lead {
         padding: 48px 48px 0 48px;
-        max-width: 928px;
-        max-height: 962px;
     }
 }
 
 @media (max-width: 768px) {
     .lead {
         padding: 48px 0 0 0;
-        max-width: 768px;
-        max-height: 862px;
     }
 }
 
 @media (max-width: 320px) {
     .lead {
         padding: 48px 0 0 0;
-        max-width: 320px;
-        max-height: 406px;
     }
 }

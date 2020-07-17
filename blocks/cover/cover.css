@@ -5,7 +5,6 @@
 
 .cover {
     max-width: 1184px;
-    max-height: 740px;
     margin: 92px auto;
     display: grid;
     grid-template-columns: auto;
@@ -18,7 +17,6 @@
     .cover {
         margin: 92px 0;
         max-width: 1280px;
-        max-height: 100vh;
     }
 }
 
@@ -26,7 +24,6 @@
     .cover {
         margin: 92px 0;
         max-width: 1024px;
-        max-height: 100vh;
     }
 }
 
@@ -34,7 +31,6 @@
     .cover {
         margin: 88px 0;
         max-width: 768px;
-        max-height: 100vh;
     }
 }
 
@@ -42,6 +38,5 @@
     .cover {
         margin: 64px 0;
         max-width: 320px;
-        max-height: 100vh;
     }
 }

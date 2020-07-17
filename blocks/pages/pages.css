@@ -1,6 +1,6 @@
 .pages {
     background: #2A2C2F top center / cover;
-    /*max-width: 1280px;*/
+    max-width: 1280px;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -11,13 +11,13 @@
     text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .pages {
         min-width: 1024px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .pages {
         min-width: 768px;
     }
