@@ -1,5 +1,6 @@
 @import url("__lang-link/header__lang-link.css");
 @import url("__logo/header__logo.css");
+@import url("__lang-link/__lang-link_active/header__lang-link_active.css");
 
 .header {
     min-width: min-content;
@@ -12,6 +13,12 @@
     align-items: center;
 }
 
+@media (min-width: 1281px) {
+    .header {
+        max-width: 1184px;
+        margin: 0 auto;
+    }
+}
 
 
 @media (max-width: 768px) {

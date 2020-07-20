@@ -5,6 +5,8 @@
     color: white;
     align-self: end;
     margin: 0 0 48px;
+    font-weight: 900;
+    word-break: break-word;
 }
 
 @media (max-width: 1024px) {
@@ -19,7 +21,7 @@
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        max-width: 340px;
+        max-width: 300px;
     }
 }
 

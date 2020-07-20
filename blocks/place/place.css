@@ -4,9 +4,9 @@
 @import url("__website/place__website.css");
 
 .place {
-    display: inline-grid;
+    display: grid;
     margin-bottom: 80px;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: auto auto 1fr;
     grid-column-gap: 40px;
     grid-template-areas: "head url"
@@ -20,7 +20,7 @@
 
 @media (max-width: 1024px) {
     .place {
-        grid-template-columns: minmax(auto, min-content) 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-template-rows: repeat(2,minmax(min-content, auto)) 1fr;
         grid-column-gap: 32px;
         grid-template-areas: "head url"
@@ -32,7 +32,7 @@
 @media (max-width: 768px) {
     .place {
         grid-column-gap: 32px;
-        grid-template-columns: minmax(auto, min-content) 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-template-rows: repeat(2,minmax(min-content, auto)) 1fr;
     }
 }

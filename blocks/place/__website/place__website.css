@@ -1,11 +1,32 @@
-@import url("_link/place__website_link.css");
-@import url("_url-heading/place__website_url-heading.css");
-
 .place__website {
     max-width: 456px;
     align-self: end;
-    margin-bottom: 48px;
+    color: #AAAAAA;
+    letter-spacing: 0.2em;
+    margin: 0 0 48px;
+    font-size: 12px;
+    line-height: 12px;
+    word-break: break-word;
 }
+
+.place__website:first-child {
+    margin: 0 0 12px;
+}
+
+.place__website:last-child {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    transition: 1s linear;
+    letter-spacing: 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.place__website:last-child:hover {
+    opacity: 0.8;
+}
+
 
 @media (max-width: 768px) {
     .place__website {

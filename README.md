@@ -1,6 +1,6 @@
 **_< -- Путешествие по России -- >_**
 
-https://github.com/Lavezur/russian-travel
+https://lavezur.github.io/russian-travel/index.html
 
 Третья проектная работа в Яндекс.Практикум !
 

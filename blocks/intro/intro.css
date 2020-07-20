@@ -1,20 +1,27 @@
-@import url("__list-item/intro__list-item.css");
 @import url("__title/intro__title.css");
 @import url("__text/intro__text.css");
+@import url("__list/intro__list.css");
+@import url("__list-item/intro__list-item.css");
 
 .intro {
     margin: 92px 442px 0 148px;
     display: grid;
     grid-template-columns: minmax(auto, 690px);
-    grid-template-rows: repeat(7, minmax(min-content, auto));
+    grid-template-rows: repeat(3, minmax(min-content, auto));
 }
 
+
+@media (min-width: 1281px) {
+    .intro {
+        max-width: 690px;
+        margin: 92px 25% 148px;
+    }
+}
 
 @media (max-width: 1024px) {
     .intro {
         margin: 92px 286px 0 48px;
         grid-template-columns: minmax(auto, 690px);
-        grid-template-rows: repeat(7, minmax(min-content, auto));
     }
 }
 
@@ -22,15 +29,14 @@
     .intro {
         margin: 88px 24px 0 24px;
         grid-template-columns: minmax(auto, 720px);
-        grid-template-rows: repeat(7, minmax(min-content, auto));
     }
 }
 
 @media (max-width: 320px) {
     .intro {
         margin: 64px 16px 0 16px;
-        max-width: 288px;
+        max-width: 100vh;
         grid-template-columns: minmax(288px, min-content);
-        grid-template-rows: repeat(7, minmax(min-content, min-content));
+        word-break: break-word;
     }
 }

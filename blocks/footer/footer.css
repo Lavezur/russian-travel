@@ -1,16 +1,11 @@
 @import url("__link/footer__link.css");
 @import url("__copyright/footer__copyright.css");
+@import url("__list/footer__list.css");
 
 .footer {
     max-width: 1184px;
     margin: 0 48px 0;
     padding-bottom: 24px;
-    display: grid;
-    grid-template-columns: repeat(5, min-content) 1fr;
-    grid-template-rows: auto;
-    grid-row-gap: 18px;
-    align-items: center;
-    justify-items: end;
 }
 
 @media (min-width: 1281px) {
@@ -35,12 +30,6 @@
 
 @media (max-width: 320px) {
     .footer {
-        max-width: 186px;
-        grid-template-columns: minmax(auto, 310px);
-        grid-template-rows: repeat(5, 24px) 1fr;
-        row-gap: 32px;
-        justify-items: start;
         margin: 0 118px 0 16px;
-        padding-bottom: 24px;
     }
 }
