@@ -10,12 +10,6 @@
     }
 }
 
-@media (max-width: 768px) {
-    .lead__image {
-        margin: 56px auto 0;
-    }
-}
-
 @media (max-width: 320px) {
     .lead__image {
         margin: 40px auto 0;

@@ -3,11 +3,16 @@
     line-height: 16px;
     color: white;
     margin: 0;
-    justify-items: end;
+    align-self: start;
+    justify-self: end;
+    grid-column: 2;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 716px) {
     .footer__copyright {
+        grid-row: 6;
+        grid-column: 1;
+        justify-self: start;
         margin-top: 16px;
     }
 }

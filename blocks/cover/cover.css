@@ -4,7 +4,7 @@
 
 .cover {
     max-width: 1184px;
-    max-height: 100vh;
+    max-height: fit-content;
     margin: 92px auto;
     display: grid;
     grid-template-columns: minmax(min-content, 1184px);
@@ -32,7 +32,7 @@
 
 @media (max-width: 768px) {
     .cover {
-        max-width: 100vh;
+        max-width: 100%;
         margin: 88px 0;
         grid-template-columns: minmax(min-content, 768px);
         grid-template-rows: minmax(min-content, 480px);

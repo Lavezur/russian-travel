@@ -6,7 +6,6 @@
     align-self: end;
     margin: 0 0 48px;
     font-weight: 900;
-    word-break: break-word;
 }
 
 @media (max-width: 1024px) {
@@ -25,11 +24,17 @@
     }
 }
 
+@media (max-width: 459px) {
+    .place__title {
+        margin: 0 0 32px 16px;
+    }
+}
+
 @media (max-width: 320px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;
-        margin: 0 0 32px;
+        margin: 0 16px 32px;
     }
 }

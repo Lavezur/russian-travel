@@ -6,11 +6,7 @@
     font-weight: normal;
 }
 
-@media (max-width: 320px) {
-    .intro__text {
-        word-break: break-word;
-    }
-}
+
 
 
 

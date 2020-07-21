@@ -10,7 +10,6 @@
     margin: 32px auto 0 ;
     text-decoration: none;
     z-index: 3;
-    word-break: break-word;
 }
 
 @media (max-width: 360px) {

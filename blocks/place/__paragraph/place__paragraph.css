@@ -12,21 +12,22 @@
     grid-row: text2;
 }
 
-@media (max-width: 1024px) {
-    .place__paragraph {
-        max-width: 456px;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 30px;
-    }
-}
 
 @media (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
         max-width: 352px;
-        word-break: break-word;
+    }
+}
+
+@media (max-width: 459px) {
+    .place__paragraph {
+        margin: 0 16px;
+    }
+
+    .place__paragraph:last-child {
+        margin: 24px 16px;
     }
 }
 

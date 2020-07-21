@@ -1,0 +1,19 @@
+@import url("_website/place__link_website.css");
+
+.place__link {
+    align-self: end;
+    margin: 0 0 48px;
+}
+
+@media (max-width: 768px) {
+    .place__link {
+        max-width: 352px;
+    }
+}
+
+@media (max-width: 459px) {
+    .place__link {
+        visibility: hidden;
+        display: none;
+    }
+}

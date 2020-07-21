@@ -1,4 +1,4 @@
-@import url("_numbers/header__list-item_numbers.css");
+@import url("../__numbers/header__list-item_numbers.css");
 
 .intro__list-item {
     font-size: 12px;
