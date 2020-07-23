@@ -3,6 +3,7 @@
 @import url("./__paragraph/place__paragraph.css");
 @import url("./__link/place__link.css");
 @import url("__website/place__website.css");
+@import url("__website-url/place__website-url.css");
 
 .place {
     display: grid;
