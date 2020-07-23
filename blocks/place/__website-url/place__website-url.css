@@ -4,11 +4,9 @@
     letter-spacing: 0.2em;
     font-size: 12px;
     line-height: 12px;
-}
-
-.place__website-url {
     margin: 0 0 12px;
 }
+
 
 @media (max-width: 768px) {
     .place__website-url {
